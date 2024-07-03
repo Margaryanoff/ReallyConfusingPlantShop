@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-div-main">
+                <div>
+                    <h1>
+                        <a href="index.html"><img src="./images/Logo (1).svg" alt=""></a>
+                    </h1>
+                </div>
+                <div class="nav-div-ul">
+                    <ul class="ul-start">
+                        <li><a href="" class="home">Home</a></li>
+                        <li><a href="" class="li-2nd">Shop</a></li>
+                        <li><a href="" class="li-2nd">Plant Care</a></li>
+                        <li><a href="" class="li-2nd">Blogs</a></li>
+                    </ul>
+                    <div class="burger">
+                        <label for="open" class="open"><i class="bi bi-list"></i></label>
+                        <input type="radio" id="open" name="brg">
+                        <ul class="burger-menu">
+                            <label for="close" class="close"><i class="bi bi-x-lg"></i></label>
+                            <input type="radio" id="close" name="brg">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Plant Care</a></li>
+                            <li><a href="">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-div-left">
+                    <a href=""><i class="bi bi-search"></i></a>
+                    <div class="bucket-bag">
+                        <a href="">
+                            <i class="bi bi-basket-fill"></i>
+                        </a>
+                        <div class="amount">
+                            <p>
+                                6
+                            </p>
+                        </div>
+                    </div>
+                        <a href="" class="login"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <h2 class="checkout-caption-h2">
+                <span>Home</span> / Shop / Checkout
+            </h2>
+            <strong class="checkout-caption">Billing Adress</strong>
+            <div class="checkout-main">
+                <div class="checkout-parent">
+                    <div class="checkout-child">
+                        <div>
+                            <label for="name">First Name <span>*</span></label>
+                            <input type="text" name="checkout" id="name">
+
+                            <label for="country">Country / Region <span>*</span></label>
+                            <input type="text" name="checkout" id="country" placeholder="Select a country / region">
+
+                            <label for="address">Street Adress <span>*</span></label>
+                            <input type="text" name="checkout" id="address">
+
+                            <label for="state">State <span>*</span></label>
+                            <input type="text" name="checkout" id=" state">
+
+                            <label for="email">Email adress <span>*</span></label>
+                            <input type="email" name="checkout" id="email">
+
+                            <div class="checkout-different-adress" >
+                                <label for="question">Ship to a different address?</label>
+                                <input type="checkbox" name="checkout" id="question">
+                            </div>
+
+                            <label for="notes">Order notes (optional)</label>
+                            <textarea name="checkout" id="notes" cols="30" rows="10" style="margin-top: 15px;"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="lastname">Last Name <span>*</span></label>
+                        <input type="text" name="checkout" id="lastname">
+
+                        <label for="town">Town / City <span>*</span></label>
+                        <input type="text" name="checkout" id="town">
+
+                        <label for="address2">Main Adress</label>
+                        <input type="text" name="checkout" id="address2" placeholder="Appartment, suite, unit, etc. (optional)">
+                        
+                        <label for="zip">Zip <span>*</span></label>
+                        <input type="text" name="checkout" id="zip">
+
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="text" name="checkout" id="phone">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout-right-main">
+                    <div>
+                        <strong class="checkout-right-strong-caption">Your Order</strong>
+                        <div class="checkout-cart-caption">
+                            <p>Products</p>
+                            <p>Subtotal</p>
+                        </div>
+                        <div class="checkout-cart">
+                            <img src="./images/1.png" alt="">
+                            <div>
+                                <strong>Barberton Daisy</strong>
+                                <p>SKU: 1995751877966</p>
+                            </div>
+                            <p class="checkout-p-last-count">(x 2)</p>
+                            <strong class="checkout-total">$ 238.00</strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="checkout-cart">
+                            <img src="./images/4.png" alt="">
+                            <div>
+                                <strong>Brushing Broomeliad</strong>
+                                <p>SKU: 1995751877965</p>
+                            </div>
+                            <p class="checkout-p-last-count">(x 6)</p>
+                            <strong class="checkout-total">$ 834.00</strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="checkout-cart">
+                            <img src="./images/1.png" alt="">
+                            <div>
+                                <strong>Aluminium Plant</strong>
+                                <p>SKU: 1995751877786</p>
+                            </div>
+                            <p class="checkout-p-last-count">(x 9)</p>
+                            <strong class="checkout-total">$ 1611.00</strong>
+                        </div>
+                    </div>
+                    <div class="checkout-div-middle">
+                       <div class="checkout-div-middle-2">
+                            <p class="checkout-coupon">Have a coupon code? <a href="">Click Here</a></p>
+                            <div class="chcekout-div-middle-details">
+                                <div>
+                                    <p>Subtotal</p>
+                                    <strong>$ 2,683</strong>
+                                </div>
+                                <div>
+                                    <p>Coupon Discount</p>
+                                    <p>( - ) 00.00</p>
+                                </div>
+                                <div>
+                                    <p>Shipping</p>
+                                    <strong>$16.00</strong>
+                                </div>
+                                <p class="checkout-shipping-charge">View Shipping Charge</p>
+                                <div class="checkout-total-price">
+                                    <p>Total</p>
+                                    <strong>$ 2,699.00</strong>
+                                </div>
+                            </div>
+                        <div class="checkout-payment-main">
+                            <strong>
+                                Payment Method
+                            </strong>
+                            <div>
+                                <label for="card"><img src="./images/image 16.png" alt=""></label>
+                                <input type="radio" name="payment" id="card">
+                            </div>
+                            <div>
+                                <label for="bank">Dorect bank transfer</label>
+                                <input type="radio" name="payment" id="bank">
+                            </div>
+                            <div>
+                                <label for="cash">Cash on delivery</label>
+                                <input type="radio" name="payment" id="cash">
+                            </div>
+                            <button>Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <footer>
+            <div class="container">
+                <div>
+                    <div class="footer-div-top">
+                        <div>
+                            <img src="./images/Logo (1).svg" alt="">
+                        </div>
+                        <div>
+                            <i class="bi bi-geo-alt"></i>
+                            <p>
+                                70 West Buckingham Ave. <br>
+                                Farmingdale, NY 11735
+                            </p>
+                        </div>
+                        <div>
+                            <i class="bi bi-envelope"></i>
+                            <a href="mail:">contact@greenshop.com</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-telephone"></i>
+                            <a href="tel:">+88 01911 717 490</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-div-bottom">
+                    <div class="categories">
+                        <h2>
+                            My Account
+                        </h2>
+                        <ul>
+                            <li><a href="">My account</a></li>
+                            <li><a href="">Our Stores</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">Specials</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>
+                            Help & Guide
+                        </h2>
+                        <ul>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">How to Buy</a></li>
+                            <li><a href="">Shipping & Delivery</a></li>
+                            <li><a href="">Product Policy</a></li>
+                            <li><a href="">How to Return</a></li>
+                        </ul>
+                    </div>
+                    <div >
+                        <h2>
+                            Categories
+                        </h2>
+                        <ul>
+                            <li><a href="">House Plants</a></li>
+                            <li><a href="">Potter Plants</a></li>
+                            <li><a href="">Seeds</a></li>
+                            <li><a href="">Small Plants</a></li>
+                            <li><a href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-payment">
+                        <div>
+                            <h2>
+                                Social Media
+                            </h2>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                        <div>
+                            <h2>
+                                We Accept
+                            </h2>
+                            <img src="./images/image 16.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

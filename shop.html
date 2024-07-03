@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-div-main">
+                <div>
+                    <h1>
+                        <a href="index.html"><img src="./images/Logo (1).svg" alt=""></a>
+                    </h1>
+                </div>
+                <div class="nav-div-ul">
+                    <ul class="ul-start">
+                        <li><a href="" class="home">Home</a></li>
+                        <li><a href="" class="li-2nd">Shop</a></li>
+                        <li><a href="" class="li-2nd">Plant Care</a></li>
+                        <li><a href="" class="li-2nd">Blogs</a></li>
+                    </ul>
+                    <div class="burger">
+                        <label for="open" class="open"><i class="bi bi-list"></i></label>
+                        <input type="radio" id="open" name="brg">
+                        <ul class="burger-menu">
+                            <label for="close" class="close"><i class="bi bi-x-lg"></i></label>
+                            <input type="radio" id="close" name="brg">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Plant Care</a></li>
+                            <li><a href="">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-div-left">
+                    <a href=""><i class="bi bi-search"></i></a>
+                    <div class="bucket-bag">
+                        <a href="">
+                            <i class="bi bi-basket-fill"></i>
+                        </a>
+                        <div class="amount">
+                            <p>
+                                6
+                            </p>
+                        </div>
+                    </div>
+                        <a href="" class="login"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="shop-header-main">
+                <div class="shop-header-caption-top">
+                    <h2>
+                        <span>Home</span> / Shop / Shopping Cart
+                    </h2>
+                </div>
+                <div class="shop-header-bottom-main">
+                    <div class="shop-hmb-left">
+                        <div class="shop-left-caption">
+                            <p class="shop-caption-1">Products</p>
+                            <p class="shop-caption-2">Price</p>
+                            <p class="shop-caption-3">Quantity</p>
+                            <p class="shop-caption-4">Total</p>
+                        </div>
+                        <div class="shop-plants-price">
+                            <div>
+                               <div>
+                                    <img src="./images/1.png" alt="">
+                                    <div class="shop-plant-name-and-code">
+                                        <strong>Barberton Daisy</strong>
+                                        <p>SKU: 1995751877966</p>
+                                    </div>
+                               </div>
+                                <p class="shop-price">$ 119.00</p>
+                                <div class="shop-quantity-main">
+                                    <span>-</span>
+                                    <p>2</p>
+                                    <span>+</span>
+                                </div>
+                                <p class="shop-total-price">$ 238.00</p>
+                                <i class="bi bi-trash"></i>
+                            </div>
+                            <div>
+                                <div>
+                                     <img src="./images/3.png" alt="">
+                                     <div class="shop-plant-name-and-code">
+                                         <strong>Blushing Bromeliad</strong>
+                                         <p>SKU: 19957518757065</p>
+                                     </div>
+                                </div>
+                                 <p class="shop-price">$ 139.00</p>
+                                 <div class="shop-quantity-main">
+                                     <span>-</span>
+                                     <p>6</p>
+                                     <span>+</span>
+                                 </div>
+                                 <p class="shop-total-price">$ 834.00</p>
+                                 <i class="bi bi-trash"></i>
+                             </div>
+                             <div>
+                                <div>
+                                     <img src="./images/9.png" alt="">
+                                     <div class="shop-plant-name-and-code">
+                                         <strong>Aluminium Plant</strong>
+                                         <p>SKU: 1995751877966</p>
+                                     </div>
+                                </div>
+                                 <p class="shop-price">$ 179.00</p>
+                                 <div class="shop-quantity-main">
+                                     <span>-</span>
+                                     <p>9</p>
+                                     <span>+</span>
+                                 </div>
+                                 <p class="shop-total-price">$ 1611.00</p>
+                                 <i class="bi bi-trash"></i>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="shop-hmb-right">
+                        <strong class="shop-checkout-span-caption">Cart Totals</strong>
+                        <div class="shop-cupon-apply-main">
+                            <label for="cupon">Coupon Apply</label>
+                            <div>
+                                <input type="text" id="cupon" placeholder="Enter coupon code here...">
+                                <button>Apply</button>
+                            </div>
+                        </div>
+                        <div class="shop-subtotal-main">
+                            <div>
+                                <p>Subtotal</p>
+                                <strong>$ 2,683.00</strong>
+                            </div>
+                            <div>
+                                <p>Coupon Discount</p>
+                                <strong style="font-weight: 400;">(-)00.00</strong>
+                            </div>
+                            <div>
+                                <p>Shipping</p>
+                                <div class="shop-view-chharge">
+                                    <strong>$ 16.00</strong>
+                                    <p style="margin-top: 20px; cursor: pointer;">View shipping charge</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Total</p>
+                                <strong>$ 2,699.00</strong>
+                            </div>
+                            <div class="shop-checout-main">
+                                <a href="checkout.html" class="shop-checout-main-a1">Proceed To Checkout</a>
+                                <a href="index.html" class="shop-checout-main-a2">Continue Shipping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="rw-sect-2">
+        <div class="container">
+            <div>
+                <h2>
+                    Related Products
+                </h2>
+            </div>
+            <div class="rw-sect2-related-main">
+              <div>
+                <img src="./images/1.png" alt="">
+                <p>Beach Spider Lily</p>
+                <strong>$ 129.00</strong>
+              </div>
+              <div>
+                <img src="./images/2.png" alt="">
+                <p>Blushing Bromeliad</p>
+                <strong>$ 139.00</strong>
+              </div>
+              <div>
+                <img src="./images/3.png" alt="">
+                <p>Aluminium Plant</p>
+                <strong>$ 179.00</strong>
+              </div>
+              <div>
+                <img src="./images/6.png" alt="">
+                <p>Bird's Nest Fern</p>
+                <strong>$ 99.00</strong>
+              </div>
+              <div>
+                <img src="./images/5.png" alt="">
+                <p>Chinese Evergreen</p>
+                <strong>$ 39.00</strong>
+              </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div>
+                <div class="footer-div-top">
+                    <div>
+                        <img src="./images/Logo (1).svg" alt="">
+                    </div>
+                    <div>
+                        <i class="bi bi-geo-alt"></i>
+                        <p>
+                            70 West Buckingham Ave. <br>
+                            Farmingdale, NY 11735
+                        </p>
+                    </div>
+                    <div>
+                        <i class="bi bi-envelope"></i>
+                        <a href="mail:">contact@greenshop.com</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:">+88 01911 717 490</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div-bottom">
+                <div class="categories">
+                    <h2>
+                        My Account
+                    </h2>
+                    <ul>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Our Stores</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Career</a></li>
+                        <li><a href="">Specials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        Help & Guide
+                    </h2>
+                    <ul>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">How to Buy</a></li>
+                        <li><a href="">Shipping & Delivery</a></li>
+                        <li><a href="">Product Policy</a></li>
+                        <li><a href="">How to Return</a></li>
+                    </ul>
+                </div>
+                <div >
+                    <h2>
+                        Categories
+                    </h2>
+                    <ul>
+                        <li><a href="">House Plants</a></li>
+                        <li><a href="">Potter Plants</a></li>
+                        <li><a href="">Seeds</a></li>
+                        <li><a href="">Small Plants</a></li>
+                        <li><a href="">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-payment">
+                    <div>
+                        <h2>
+                            Social Media
+                        </h2>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                    <div>
+                        <h2>
+                            We Accept
+                        </h2>
+                        <img src="./images/image 16.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
